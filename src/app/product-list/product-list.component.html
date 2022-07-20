@@ -1,0 +1,17 @@
+<h2>Products 🌈</h2>
+
+<div *ngFor="let product2 of products">
+<a>
+{{ product2.name }}
+</a>
+
+<p *ngIf="product2.description">
+Description: {{ product2.description }}
+</p>
+
+</div>
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
